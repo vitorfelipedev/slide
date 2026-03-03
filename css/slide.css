@@ -1,0 +1,18 @@
+.slide-wrapper {
+  overflow: hidden;
+}
+
+.slide {
+  display: flex;
+}
+
+.slide li {
+  width: 80vh;
+  flex-shrink: 0;
+  max-width: 800px;
+  margin: 1rem;
+}
+
+.slide {
+  transform: translate3d(-2000px, 0, 0);
+}
