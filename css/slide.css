@@ -27,3 +27,25 @@
   opacity: 1;
   transform: scale(1);
 }
+
+[data-control='slide'] {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+[data-control='slide'] li a {
+  display: block;
+  width: 0.75rem;
+  height: 0.75rem;
+  background-color: #fb5;
+  border-radius: 50%;
+  overflow: hidden;
+  text-indent: -100px;
+  margin: 0.4rem;
+}
+
+[data-control='slide'] li.active a,
+[data-control='slide'] li a:hover {
+  background: #e54;
+}
